@@ -14,6 +14,7 @@ body{
     justify-content: center;
     /* align-items: center; */
     height: 100lvh;
+    overflow-x: auto;
 }
 
 
@@ -21,11 +22,12 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow-x: auto;
 }
 
-.workedOn{
+.workedOn>svg{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: red;
+    /* background-color: red; */
 }
