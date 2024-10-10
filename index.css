@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black !important;
+}
+
+#Experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100lvh;
+}
+
+
+.HandsOn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.workedOn{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
