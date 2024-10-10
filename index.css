@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: none;
 }
 
 body{
@@ -12,34 +13,40 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     height: 100lvh;
-    overflow-x: auto;
+    width: 100%;
 }
 
 
 .HandsOn{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow-x: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ScollContent{
+    background-color: #c840db;
+    overflow: hidden;
 }
 
 .workedOn>svg{
-    height: 100px;
-    width: 100px;
     border-radius: 50%;
-    /* background-color: red; */
+}
+.workedOn>img{
+    background-color: black;
+    color: black;
 }
 
 .company{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .about_experince {
     transition: transform 1s ease, box-shadow 1s ease;
+    width: 40%;
 }
 
 .about_experince:hover {
